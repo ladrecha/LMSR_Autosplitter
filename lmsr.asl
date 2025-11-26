@@ -1,3 +1,9 @@
+/*
+** Lonely Mountains Snow Riders autosplitter
+** By GrosHiken with the help of Lyliya's LMD autosplitter
+*/
+
+
 state("LMSR_Windows64_Steam") 
 {
    uint loading : "GameAssembly.dll", 0x04C3C228, 0xB8, 0x0, 0x70, 0x78;
